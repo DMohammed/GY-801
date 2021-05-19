@@ -43,7 +43,7 @@ void MMC5883MA::begin()
 void MMC5883MA::calibrate()
 {
     static int count = 0;
-    Serial.println("places with until calibration is done!");
+    Serial.println("Please wait until calibration is done!");
     while (count < 10000)
     {
         wire->beginTransmission(MMC_ADDRESS);
