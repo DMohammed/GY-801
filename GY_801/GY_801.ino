@@ -1,11 +1,11 @@
 #include <Arduino.h>
 #include "Wire.h"
-#include <MMC5883.h>
+#include "MMC5883.h"
 #include <I2Cdev.h>
-#include <L3G4200D.h>
+#include "L3G4200D.h"
 #include "ADXL345.h"
 #include <Adafruit_Sensor.h>
-#include <Adafruit_BMP085_U.h>
+#include "Adafruit_BMP085_U.h"
 
 L3G4200D gyro;
 ADXL345 accel;
