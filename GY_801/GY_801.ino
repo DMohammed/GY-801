@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include "Wire.h"
 #include "MMC5883.h"
-#include <I2Cdev.h>
+#include "I2Cdev.h"
 #include "L3G4200D.h"
 #include "ADXL345.h"
 #include <Adafruit_Sensor.h>
